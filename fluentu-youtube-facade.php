@@ -33,7 +33,7 @@ class FluentuYoutubeFacade
     public function __construct()
     {
         add_action('wp_enqueue_scripts', [$this, 'scripts']);
-        add_filter('the_content', [$this, 'replaceIframes'], 100);
+        add_filter('the_content', [$this, 'replaceIframes'], 9999);
     }
 
     /**
