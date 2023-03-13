@@ -56,7 +56,7 @@ class FluentuYoutubeFacade
      */
     public function replaceIframes(string $content): string
     {
-        $pattern = '/<iframe[ \S]* src="[\S]+embed\/([a-zA-Z0-9_-]+)[\S]*"[ \S]*><\/iframe>/';
+        $pattern = '/<iframe[ \S]* src="[\S]+youtube+[\S]+embed\/([a-zA-Z0-9_-]+)[\S]*"[ \S]*><\/iframe>/';
         return preg_replace($pattern, '<lite-youtube videoid="$1"></lite-youtube>', $content);
     }
 }
