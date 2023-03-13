@@ -9,7 +9,7 @@
  * Plugin Name:       Fluentu Youtube Facade
  * Plugin URI:        https://github.com/FluentU/fluentu-youtube-facade
  * Description:       Simple plugin to replace Youtube iframes with placeholder.
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            Elco Brouwer von Gonzenbach
  * Author URI:        https://github.com/elcobvg
  * Text Domain:       fluentu-youtube-facade
